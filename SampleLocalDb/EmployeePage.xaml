@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="SampleLocalDb.EmployeePage">
+	<ContentPage.Content>
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout Padding="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <Image Source="bytelionLogo.png" BackgroundColor="Silver" HorizontalOptions="Fill"></Image>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                <Label Text="Name" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" >
+                </Label>
+                <Entry Text="{Binding EmpName}" Grid.Row="0" Grid.Column="1" />
+                <Label Text="Designation" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" >
+                </Label>
+                <Entry Text="{Binding EmpDesignation}" Grid.Row="1" Grid.Column="1" />
+                <Label Text="Email" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" >
+                </Label>
+                <Entry Text="{Binding Email}" Grid.Row="2" Grid.Column="1" />
+            </Grid>
+            <Button Text="Save" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White" Clicked="Save_Clicked"></Button>
+            <Button Text="Delete" HorizontalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White" Clicked="Delete_Clicked"></Button>
+            <Button Text="Cancel" HorizontalOptions="FillAndExpand" BackgroundColor="Black" TextColor="White" Clicked="Cancel_Clicked"></Button>
+         </StackLayout>
+         </ScrollView>
+	</ContentPage.Content>
+</ContentPage>

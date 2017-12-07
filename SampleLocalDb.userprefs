@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{1AEA924C-901C-4C89-92C6-0DEF9029E33F}|Default">
+  <MonoDevelop.Ide.ItemProperties.SampleLocalDb.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BD4AF439-F4EA-44BC-BDF6-159ED8E6F235">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.SampleLocalDb.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleLocalDb/Employee.cs">
+    <Files>
+      <File FileName="SampleLocalDb/Employee.cs" Line="18" Column="23" />
+      <File FileName="SampleLocalDb/ILocalFileHelper.cs" Line="6" Column="32" />
+      <File FileName="SampleLocalDb/EmployeeDatabase.cs" Line="34" Column="24" />
+      <File FileName="SampleLocalDb/App.xaml.cs" Line="15" Column="9" />
+      <File FileName="SampleLocalDb/EmployeeListPage.xaml" Line="13" Column="1" />
+      <File FileName="SampleLocalDb/EmployeeListPage.xaml.cs" Line="36" Column="112" />
+      <File FileName="iOS/LocalFileHelper.cs" Line="21" Column="10" />
+      <File FileName="SampleLocalDb/EmployeePage.xaml" Line="37" Column="1" />
+      <File FileName="SampleLocalDb/EmployeePage.xaml.cs" Line="13" Column="10" />
+      <File FileName="iOS/Main.cs" Line="19" Column="9" />
+      <File FileName="iOS/packages.config" Line="1" Column="1" />
+      <File FileName="Droid/LocalFileHelper.cs" Line="25" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="11" Column="12" />
+      <File FileName="SampleLocalDb/App.xaml" Line="7" Column="1" />
+      <File FileName="SampleLocalDb/obj/Debug/SampleLocalDb.App.xaml.g.cs" Line="19" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SampleLocalDb.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
